@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Μέδουσα - Εστιατόριο</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f8f8f8; }
+        nav { background-color: #444; padding: 10px; }
+        nav a { margin: 0 15px; text-decoration: none; color: white; font-size: 18px; }
+        .container { max-width: 800px; margin: auto; padding: 20px; background: white; border-radius: 5px; }
+        footer { text-align: center; padding: 20px; background-color: #333; color: white; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Αρχική</a>
+        <a href="menu.html">Μενού</a>
+        <a href="reservations.html">Κρατήσεις</a>
+        <a href="events.html">Events</a>
+        <a href="about.html">Το μαγαζί μας</a>
+    </nav>
+    <div class="container">
+        <h1>Καλώς ήρθατε στη Μέδουσα</h1>
+        <p>Ανακαλύψτε μοναδικές γεύσεις με αυθεντικές συνταγές.</p>
+        <a href="menu.html">Δείτε το Μενού μας</a>
+    </div>
+    <footer>&copy; 2025 Μέδουσα - Όλα τα δικαιώματα διατηρούνται.</footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Μενού - Μέδουσα</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f8f8f8; }
+        .menu-container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 10px; }
+        .category { font-weight: bold; font-size: 18px; color: #555; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <h1>Μενού Μέδουσα</h1>
+        <div class="category">Ορεκτικά</div>
+        <p>Τζατζίκι - 4.50€</p>
+        <p>Φάβα - 5.00€</p>
+        <p>Χωριάτικη Σαλάτα - 6.50€</p>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Κρατήσεις - Μέδουσα</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f8f8f8; }
+        .container { max-width: 600px; margin: auto; background: white; padding: 20px; border-radius: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Κάντε Κράτηση</h1>
+        <form action="mailto:example@medousa.gr" method="post">
+            <label>Ονοματεπώνυμο:</label><br><input type="text" name="name"><br>
+            <label>Ημερομηνία:</label><br><input type="date" name="date"><br>
+            <label>Άτομα:</label><br><input type="number" name="people"><br>
+            <label>Τηλέφωνο:</label><br><input type="tel" name="phone"><br>
+            <button type="submit">Κράτηση</button>
+        </form>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - Μέδουσα</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f8f8f8; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Εκδηλώσεις</h1>
+        <h2>Άρωμα Θάλασσας και Κρασιού</h2>
+        <p>Εκπτώσεις στα Μεγάλα Ψάρια και ειδικές προσφορές με εκλεκτά κρασιά.</p>
+        <h2>Τσιπουρομεζέδες της Τρίτης</h2>
+        <p>Απολαύστε τρία μεζεδάκια με κάθε τσίπουρο, κάθε Τρίτη!</p>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Το Μαγαζί μας - Μέδουσα</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f8f8f8; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Η Ιστορία μας</h1>
+        <p>Η Μέδουσα είναι μια από τις πιο γνωστές ψαροταβέρνες, με έμφαση στην ποιότητα και τη φιλοξενία.</p>
+    </div>
+</body>
+</html>
